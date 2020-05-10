@@ -4,7 +4,7 @@ Gem::Specification.new do |spec|
   spec.name          = "andydna-google-translate"
   spec.version       = AndyDNA::Google::Translate::VERSION
   spec.authors       = ["andydna"]
-#  spec.email         = ["andydna@protonmail.ch"]
+#  spec.email         = [""]
 
   spec.summary       = "simplified interface for google translate"
 #  spec.homepage      = "TODO: Put your gem's website or public repo URL here."

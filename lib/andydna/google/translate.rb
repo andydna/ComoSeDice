@@ -1,10 +1,9 @@
+require 'google/cloud/translate'
+
 module AndyDNA
 module Google
-module Translate
 
-class GoogleTranslate
-  require 'google/cloud/translate'
-
+class Translate
   def self.<<(text)
     new.to_english(text)
   end
@@ -58,8 +57,8 @@ class GoogleTranslate
               'us-central1'
             end
 end
-end
+
 end
 end
 
-GoogleTranslate = AndyDNA::Google::Translate::GoogleTranslate
+GoogleTranslate = AndyDNA::Google::Translate

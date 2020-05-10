@@ -1,5 +1,5 @@
 ENV["TRANSLATE_CREDENTIALS"] = File.expand_path("spec/credentials.json")
-ENV["TRANSLATE_PROJECT"] = "gemdev"
+ENV["TRANSLATE_PROJECT"]     = "gemdev"
 
 RSpec.describe AndyDNA::Google::Translate do
 

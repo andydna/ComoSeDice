@@ -1,6 +1,6 @@
 module AndyDNA
   module Google
-    module Translate
+    class Translate
       VERSION = "0.1.0"
     end
   end
