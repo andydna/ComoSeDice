@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["andydna"]
 #  spec.email         = [""]
 
-  spec.summary       = "simplified interface for google translate"
+  spec.summary       = "dead simple interface for google translate"
   spec.homepage      = "https://github.com/andydna/google-translate"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
