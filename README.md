@@ -1,15 +1,15 @@
 # AndyDNA::Google::Translate
 
-Dead simple wrapper for "google-cloud-translate".
+Dead simple wrapper for [https://rubygems.org/gems/google-cloud-translate/](google-cloud-translate).
 
 ```ruby
 GoogleTranslate << "hola"  #=> "Hello"
 ```
 
-Set
+set
 ```ruby
 ENV["TRANSLATE_CREDENTIALS"] = File.expand_path("some/where/credentials.json")
 ENV["TRANSLATE_PROJECT"]     = "project_name"
 ```
-somehow.
+however you may please.
 
