@@ -1,6 +1,6 @@
 # AndyDNA::Google::Translate
 
-Dead simple wrapper for [https://rubygems.org/gems/google-cloud-translate/](google-cloud-translate).
+Dead simple wrapper for [google-cloud-translate](https://rubygems.org/gems/google-cloud-translate/).
 
 ```ruby
 GoogleTranslate << "hola"  #=> "Hello"
