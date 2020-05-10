@@ -2,7 +2,7 @@ require_relative 'lib/andydna/google/translate/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "andydna-google-translate"
-  spec.version       = Andydna::Google::Translate::VERSION
+  spec.version       = AndyDNA::Google::Translate::VERSION
   spec.authors       = ["andydna"]
 #  spec.email         = ["andydna@protonmail.ch"]
 

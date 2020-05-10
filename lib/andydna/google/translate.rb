@@ -1,4 +1,4 @@
-module Andydna
+module AndyDNA
 module Google
 module Translate
 
@@ -62,4 +62,4 @@ end
 end
 end
 
-GoogleTranslate = Andydna::Google::Translate::GoogleTranslate
+GoogleTranslate = AndyDNA::Google::Translate::GoogleTranslate

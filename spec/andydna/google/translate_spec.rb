@@ -1,7 +1,7 @@
 ENV["TRANSLATE_CREDENTIALS"] = File.expand_path("spec/credentials.json")
 ENV["TRANSLATE_PROJECT"] = "gemdev"
 
-RSpec.describe Andydna::Google::Translate do
+RSpec.describe AndyDNA::Google::Translate do
 
   context "to english" do
     it "ルビー => ruby" do

@@ -1,4 +1,4 @@
-module Andydna
+module AndyDNA
   module Google
     module Translate
       VERSION = "0.1.0"
