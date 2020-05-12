@@ -1,8 +1,8 @@
-require_relative 'lib/andydna/google/translate/version'
+require_relative 'lib/comosedice/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "andydna-google-translate"
-  spec.version       = AndyDNA::Google::Translate::VERSION
+  spec.name          = "comosedice"
+  spec.version       = ComoSeDice::VERSION
   spec.authors       = ["andydna"]
 #  spec.email         = [""]
 

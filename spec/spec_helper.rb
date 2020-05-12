@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "andydna/google/translate"
+require "comosedice"
 require "pry"
 
 RSpec.configure do |config|
