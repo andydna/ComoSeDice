@@ -1,9 +1,9 @@
-# AndyDNA::Google::Translate
+# ComoSeDice
 
 dead simple wrapper for [google-cloud-translate](https://rubygems.org/gems/google-cloud-translate/).
 
 ```ruby
-GoogleTranslate << "hola"  #=> "Hello"
+ComoSeDice << "hola"  #=> "Hello"
 ```
 
 set
