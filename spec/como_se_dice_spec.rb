@@ -20,15 +20,15 @@ RSpec.describe ComoSeDice, :vcr do
 
   context "from english" do
     it "ruby => rubí" do
-      expect(como.to_spanish "ruby").to match /rubí/i
+      expect(como.to_spanish "ruby").to match /rubí/
     end
 
     it "ruby => ルビー" do
-      expect(como.to_japanese "ruby").to match /ルビー/i
+      expect(como.to_japanese "ruby").to match /ルビー/
     end
 
     it "ruby => Рубин" do
-      expect(como.to_russian "ruby").to match /Рубин/i
+      expect(como.to_russian "ruby").to match /Рубин/
     end
   end
 
