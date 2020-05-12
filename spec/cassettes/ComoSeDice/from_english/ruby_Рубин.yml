@@ -1,0 +1,52 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://oauth2.googleapis.com/token
+    body:
+      encoding: ASCII-8BIT
+      string: grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJ0ZXN0aW5nQGdlbWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsImF1ZCI6Imh0dHBzOi8vb2F1dGgyLmdvb2dsZWFwaXMuY29tL3Rva2VuIiwiZXhwIjoxNTg5MzA5NjMwLCJpYXQiOjE1ODkzMDk1MTAsInNjb3BlIjoiaHR0cHM6Ly93d3cuZ29vZ2xlYXBpcy5jb20vYXV0aC9jbG91ZC1wbGF0Zm9ybSBodHRwczovL3d3dy5nb29nbGVhcGlzLmNvbS9hdXRoL2Nsb3VkLXRyYW5zbGF0aW9uIn0.QewH0pcjxbihA-6BANDf4AT_I9B-OB6cWnPs-9nL5idH4iyMgk4ZvGIgARr0Qi1CRysMzT3lz7rUsgb80fPVKfJuhSf5LxFX23IkFA4MF1bkdJSLFQ3Bkn2W9oQ_aIGTSgtzI3PtopoVvS1-0gaIc0-WVmrBndv9E7vR-hC8ap9bu69aOnkIQVjIJsMeVBfgfI526ME9DVQKzHmHUDCQmfXaIWLrnobW_vq5lS2cZ5I2l2rhskNPPjUjYaXXWs-zMBFORiCWe26zQCBnoHKcASf-obyQpgVukW9PQyhZF7y7JL5aNpq0GrIspZd-MCoM4WWk1_XiNWykuJ9L--Xfjg
+    headers:
+      User-Agent:
+      - Faraday v1.0.1
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Vary:
+      - Origin
+      - Referer
+      - X-Origin
+      Date:
+      - Tue, 12 May 2020 18:52:50 GMT
+      Server:
+      - scaffolding on HTTPServer2
+      Cache-Control:
+      - private
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      Alt-Svc:
+      - h3-27=":443"; ma=2592000,h3-25=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q049=":443";
+        ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443";
+        ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"access_token":"ya29.c.KpEBygdb6TfKy49ResArvEgVcGTZ_BSC52Gk9_jex_H7UO9-pa8CHlvfowGmvSv6pRe-ml_U0vy-pXcQbJukZJ82of2RprULvsBsRERcVp47aPHHUpa1Y9Jqfw_nz0EZGCGjP6hAN6BDzmm4yH0DYswOTHTz5BQLZU44SpK3hu0vGoEZ71fJ1BbxFRCg4mH3DjJxhQ","expires_in":3599,"token_type":"Bearer"}'
+    http_version: null
+  recorded_at: Tue, 12 May 2020 18:52:50 GMT
+recorded_with: VCR 5.1.0

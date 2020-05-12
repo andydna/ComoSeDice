@@ -1,7 +1,7 @@
 ENV["TRANSLATE_CREDENTIALS"] = File.expand_path("spec/credentials.json")
 ENV["TRANSLATE_PROJECT"]     = "gemdev"
 
-RSpec.describe ComoSeDice do
+RSpec.describe ComoSeDice, :vcr do
   let(:como) { ComoSeDice }
 
   context "to english" do

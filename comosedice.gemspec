@@ -1,4 +1,4 @@
-require_relative 'lib/comosedice/version'
+require_relative 'lib/como_se_dice/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "comosedice"
@@ -27,4 +27,5 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency "google-cloud-translate"
   spec.add_development_dependency "pry"
+  spec.add_development_dependency "titlewave"
 end
