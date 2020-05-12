@@ -1,8 +1,15 @@
 require 'google/cloud/translate'
 
 module ComoSeDice
+  class Error < StandardError; end
+
   def ComoSeDice.<<(text)
+    raise(Error, "ENV?") unless env?
     Translation.new.to_english(text)
+  end
+
+  def ComoSeDice.env?
+    ENV["TRANSLATE_CREDENTIALS"] and ENV["TRANSLATE_PROJECT"]
   end
 
   def ComoSeDice.method_missing(mthd, *args, &block)
@@ -10,28 +17,12 @@ module ComoSeDice
   end
 
   class Translation
-    def to_english(text)
-      @text = text
-      @language = 'en'
-      translations.first.translated_text
-    end
-
-    def to_spanish(text)
-      @text = text
-      @language = 'es'
-      translations.first.translated_text
-    end
-
-    def to_japanese(text)
-      @text = text
-      @language = 'ja'
-      translations.first.translated_text
-    end
-
-    def to_russian(text)
-      @text = text
-      @language = 'ru'
-      translations.first.translated_text
+    {to_english: 'en', to_spanish: 'es', to_japanese: 'ja', to_russian: 'ru'}.each do |mthd, bcp47|
+      define_method(mthd) do |text|
+        @text = text
+        @language = bcp47
+        translations.first.translated_text
+      end
     end
 
     private
