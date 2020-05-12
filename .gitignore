@@ -7,6 +7,7 @@
 /spec/reports/
 /spec/credentials.json
 /tmp/
+/spec/cassettes
 
 # rspec failure tracking
 .rspec_status
