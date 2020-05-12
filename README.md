@@ -5,6 +5,7 @@ dead simple wrapper for [google-cloud-translate](https://rubygems.org/gems/googl
 ```ruby
 ComoSeDice << "hola"  #=> "Hello"
 ```
+peruse the spec for more examples.
 
 set
 ```ruby
