@@ -1,5 +1,6 @@
 require "bundler/setup"
-require "como_se_dice"
+
+require "comosedice"
 require "pry"
 
 require 'titlewave'

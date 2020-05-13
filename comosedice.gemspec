@@ -1,4 +1,4 @@
-require_relative 'lib/como_se_dice/version'
+require_relative 'lib/comosedice/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "comosedice"
